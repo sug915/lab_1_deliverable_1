@@ -1,0 +1,234 @@
+
+
+body{
+  background-color: #F0ECEE;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.heading {
+  margin-top: 150px;
+  background-color: #F0ECEE;
+}
+
+.header {
+  background-color: #F0ECEE;
+  display: flex;
+  justify-content: space-between;
+  width: 6px;
+}
+
+h2.static {
+  font-size: 3rem;
+  width: 500px;
+}
+
+p.static {
+  font-size: 1.5rem;
+}
+
+button.button {
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 100%;
+  background-color: #FF4850;
+  color: #F0ECEE;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+a.button {
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF4850;
+  color: #F0ECEE;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #F0ECEE;
+}
+
+.flex-container > div {
+  background-color: #F0ECEE;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-weight: 300;
+}
+
+b, strong {
+  color: #FF4850;
+}
+
+h3: link {
+  color: #88898B;
+}
+
+a: link {
+  color: #88898B;
+}
+
+
+a:hover {
+  color: #FF4850;
+  background-color: #CCC;
+}
+
+button:hover {
+  color: #FF4850;
+  background-color: #CCC;
+}
+
+p {
+  margin-left: 20px;
+  color: #88898B;
+  font-weight: 300;
+}
+
+h2 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.navbar {
+  font-weight: 400;
+  background-color: #F0ECEE;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #88898B;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav li {
+  text-align: left;
+  margin: 5px auto;
+}
+
+.logo{
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #FF4850;
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  h2.static {
+    font-size: 2.5vw;
+    width: 500px;
+  }
+
+  button.button {
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 50%;
+    background-color: #FF4850;
+    color: #F0ECEE;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  a.button {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #FF4850;
+    color: #F0ECEE;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  a:hover {
+    color: #FF4850;
+    background-color: #CCC;
+  }
+
+  button:hover {
+    color: #FF4850;
+    background-color: #CCC;
+  }
+
+  body{
+    background-image: url("./images/bulldog.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F0ECEE;
+  }
+
+  img.image{
+    height: 900px;
+    width: 900px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+  .main-nav {
+    display: flex;
+    margin-right: 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 10px;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo{
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: #FF4850;
+  }
+
+}
